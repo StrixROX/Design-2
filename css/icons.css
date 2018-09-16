@@ -5,7 +5,7 @@
     margin-top: 10px;
     width: 20px;
     height: 2px;
-    background-color: black;
+    background-color: currentColor;
   }
   
   .menu.icon:before {
@@ -15,7 +15,7 @@
     left: 0;
     width: 20px;
     height: 2px;
-    background-color: black;
+    background-color: currentColor;
   }
   
   .menu.icon:after {
@@ -25,7 +25,7 @@
     left: 0;
     width: 20px;
     height: 2px;
-    background-color: black;
+    background-color: currentColor;
   }
 
 /*********************************/

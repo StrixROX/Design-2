@@ -6,5 +6,10 @@
 }
 
 :root{
+    --linear-g1-a: rgb(0, 61, 192);
+    --linear-g1-b: rgb(118, 26, 224);
+}
+
+:root{
     --nav-h: 70px;
 }

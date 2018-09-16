@@ -6,8 +6,5 @@ section.header{
     width: 100%;
     height: 100vh;
     color: var(--white);
-    background: linear-gradient(to bottom right,
-        rgb(112, 24, 255),
-        rgb(118, 13, 255)
-    );
+    background: var(--purple-pink);
 }
