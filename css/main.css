@@ -61,7 +61,7 @@ a{text-decoration: none; color: inherit;}
         background-color: white;
     }
         
-        .nav-item, .nav-item::before{
+        .nav-item, .nav-item::before, .nav-item::after{
             display: flex;
             width: 100%;
             height: var(--nav-h);
@@ -75,7 +75,7 @@ a{text-decoration: none; color: inherit;}
                 left: 0;
                 width: 0%;
                 clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
-                background-color: rgba(18,18,18);
+                background-color: rgb(18,18,18);
                 transition: all 0.2s 0.05s;
             }
             .nav-item::after{
@@ -84,15 +84,15 @@ a{text-decoration: none; color: inherit;}
                 right: 0;
                 width: 0%;
                 clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
-                background-color: rgba(18,18,18);
+                background-color: rgb(219, 219, 219);
                 transition: all 0.2s 0.05s;
             }
 
         .nav-item:hover::before{
             width: 100%;
-            clip-path: polygon(0 0, 50% 0, calc(50% - 20px) 100%, 0 100%);
+            clip-path: polygon(0 0, 52% 0, 48% 100%, 0 100%);
         }
         .nav-item:hover::after{
             width: 100%;
-            clip-path: polygon(0 0, 50% 0, 50% 100%, 20px 100%);
+            clip-path: polygon(52% 0, 100% 0, 100% 100%, 48% 100%);
         }
