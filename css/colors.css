@@ -1,13 +1,18 @@
 :root{
     --black: rgb(10,10,10);
     --white: rgb(240,240,240);
+    --grey: rgb(230, 230, 230);
 
-    --purple-pink: rgb(118, 13, 255);
+    --purple-pink: rgb(118, 0, 175);
 }
 
 :root{
-    --linear-g1-a: rgb(0, 61, 192);
-    --linear-g1-b: rgb(118, 26, 224);
+    --black-trans: rgba(0,0,0,0.2);
+}
+
+:root{
+    --linear-g1-a: rgb(0, 77, 192);
+    --linear-g1-b: rgb(130, 21, 202);
 }
 
 :root{

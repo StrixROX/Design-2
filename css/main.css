@@ -61,7 +61,7 @@ a{text-decoration: none; color: inherit;}
         background-color: white;
     }
         
-        .nav-item, .nav-item::before, .nav-item::after{
+        .nav-item/*, .nav-item::before, .nav-item::after*/{
             display: flex;
             width: 100%;
             height: var(--nav-h);
@@ -69,7 +69,7 @@ a{text-decoration: none; color: inherit;}
             align-items: center;
         }
 
-            .nav-item::before{
+            /*.nav-item::before{
                 content: "";
                 position: absolute;
                 left: 0;
@@ -83,16 +83,16 @@ a{text-decoration: none; color: inherit;}
                 position: absolute;
                 right: 0;
                 width: 0%;
-                clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+                clip-path: polygon(100% 0, 50% 0, 50% 100%, 100% 100%);
                 background-color: rgb(219, 219, 219);
                 transition: all 0.2s 0.05s;
             }
 
-        .nav-item:hover::before{
-            width: 100%;
-            clip-path: polygon(0 0, 52% 0, 48% 100%, 0 100%);
-        }
-        .nav-item:hover::after{
-            width: 100%;
-            clip-path: polygon(52% 0, 100% 0, 100% 100%, 48% 100%);
-        }
+            .nav-item:hover::before{
+                width: 100%;
+                clip-path: polygon(0 0, 52% 0, 48% 100%, 0 100%);
+            }
+            .nav-item:hover::after{
+                width: 100%;
+                clip-path: polygon(100% 0, 52% 0, 48% 100%, 100% 100%);
+            }*/
