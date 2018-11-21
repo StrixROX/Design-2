@@ -3,6 +3,6 @@ $('.ctn').click(function(){
         .toggleClass('menu')
         .toggleClass('close');
 
-    $('.nav, .ctn2').animate({width: 'toggle'}, 200);
+    $('.nav, .ctn2').animate({width: 'toggle'}, 250);
     $('body').toggleClass('scrollLock');
 });
